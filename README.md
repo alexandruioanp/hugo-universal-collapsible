@@ -1,5 +1,5 @@
 # hugo-universal-collapsible
-A Hugo plugin for collapsible sections using only vanilla JavaScript and CSS.
+A Hugo plugin for collapsible sections (like a spoiler tag) using only vanilla JavaScript and CSS.
 
 The tag is split into 2 sections - `above` and `below` the fold.
 Arbitrarily complex Markdown and HTML content is supported in either section. You can even nest multiple collapsibles!
