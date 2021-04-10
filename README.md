@@ -20,6 +20,12 @@ If one of the sections (`above`/`below`) contains HTML (e.g. from another shortc
       unsafe = true
 ```
 
+# Parameters
+
+| Name           | Accepted values     | Default      | Description |
+| ----           | ---                 | ---          | ---         |
+| `initState`    | `closed`, `open`    | `closed`     | The initial state of the collapsible |
+
 # Demo
 
 ```

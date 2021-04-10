@@ -12,7 +12,7 @@ var callback = function() {
     a.addEventListener('click', toggleCollapse, false);
     a.className = 'collapseAnchor';
     a.href="#"; /* without this it's not keyboard focusable */
-    wrap.classList.add('closed', 'collapseWrap');
+    wrap.classList.add('collapseWrap');
   } // for hook
   function toggleCollapse(e) {
     e.preventDefault();
