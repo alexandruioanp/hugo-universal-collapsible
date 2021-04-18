@@ -25,6 +25,8 @@ If one of the sections (`above`/`below`) contains HTML (e.g. from another shortc
 | Name           | Accepted values     | Default      | Description |
 | ----           | ---                 | ---          | ---         |
 | `initState`    | `closed`, `open`    | `closed`     | The initial state of the collapsible |
+| `textClosed`   | Unicode string     | See More ▼     | The text to display when the collapsible is closed |
+| `textOpen`     | Unicode string     | See Less ▲     | The text to display when the collapsible is open |
 
 # Demo
 
@@ -51,7 +53,6 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 
 ![demo](demo/demo.gif)
 
-Credit for JS/CSS:
+Credit for initial JS/CSS implementation:
 
-Jason Knight
-https://levelup.gitconnected.com/collapsible-sections-with-or-without-javascript-3fd871955a9d
+Jason Knight at https://levelup.gitconnected.com/collapsible-sections-with-or-without-javascript-3fd871955a9d
